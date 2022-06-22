@@ -1,0 +1,4 @@
+  
+    [32mID:[39m 562dbb44-eaca-440c-bcee-ee41515fbbe2
+    [32mDescripcion de tarea:[39m dasd 
+    [32mEstado actual de la tarea:[39m null
