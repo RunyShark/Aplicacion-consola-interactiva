@@ -1,17 +1,27 @@
 [
   {
-    "id": "0f70d268-dc9f-45cf-81c9-729cbe5322fd",
-    "desc": "dasdas",
-    "completadoEn": true
-  },
-  {
-    "id": "18126650-3303-4e79-8697-bd2cc253aa35",
-    "desc": "Hola",
+    "id": "8f14fdc7-df40-4eca-89a0-2745d5ae8513",
+    "desc": "Bañarme",
     "completadoEn": null
   },
   {
-    "id": "9163a7ed-123c-4034-9cec-bd5c3d208e8f",
-    "desc": "Adios",
-    "completadoEn": "completadas"
+    "id": "baccc0a1-7598-44c5-a021-833e6d8f93bc",
+    "desc": "Comprar comida",
+    "completadoEn": null
+  },
+  {
+    "id": "7eb5762d-ead8-4ca5-bed8-4ba9083df592",
+    "desc": "Hacer tarea",
+    "completadoEn": null
+  },
+  {
+    "id": "e9270654-7ea9-4abd-b32d-30e7fe8bdf08",
+    "desc": "Estudiar",
+    "completadoEn": null
+  },
+  {
+    "id": "934c21ac-976f-4e06-9477-6737d51c8ee0",
+    "desc": "Ir al gym",
+    "completadoEn": null
   }
 ]
