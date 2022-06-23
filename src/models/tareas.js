@@ -1,7 +1,9 @@
 const Tarea = require("./tarea");
 
 class Tareas {
-  _listado = {};
+  _listado = {
+    abc: 123,
+  };
   get listadoArr() {
     const listado = [];
     Object.keys(this._listado).forEach((key) => {
@@ -15,6 +17,12 @@ class Tareas {
   constructor() {
     this._listado = {};
     this.listado = [];
+  }
+
+  BorrarTarea(id = "") {
+    if (this._listado[id]) {
+      delete this._listado[id];
+    }
   }
   cargarTareasFromArray(tareas = []) {
     tareas.forEach((tarea) => {
@@ -48,18 +56,16 @@ class Tareas {
       if (completada) {
         if (completadoEn) {
           contador += 1;
-          console.log(`${contador.toString().green}: ${desc}:: ${extracto}`);
+          console.log(`${contador.toString().green}: ${desc} :: ${extracto}`);
         }
       } else {
         if (!completadoEn) {
           contador += 1;
-          console.log(`${contador.toString().green}: ${desc}:: ${extracto}`);
+          console.log(`${contador.toString().green}: ${desc} :: ${extracto}`);
         }
       }
     });
   }
-
-  tareasCompletadas(completadas) {}
 }
 
 module.exports = Tareas;
